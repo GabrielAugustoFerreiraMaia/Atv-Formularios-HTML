@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários de Pokémon</title>
+</head>
+
+<body>
+    <header>
+        <h1>Formulários de Pokémon</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#numero-pokemon">Número do Pokémon na pokédex</a></li>
+            <li><a href="#nome-pokemon">Nome do Pokémon</a></li>
+            <li><a href="#tipos-pokémon">Tipos do Pokémon</a></li>
+            <li><a href="#total-stats-pokemon">Número Total de Stats(Pontos de Vida, Ataque, Defesa, Ataque Especial, Defesa Especial e Velocidade) do Pokémon</a></li>
+            <li><a href="#hp-pokemon">A quantidade de vida de um pokémon</a></li>
+            <li><a href="#ataque-pokemon">O ataque base do Pokémon</a></li>
+            <li><a href="#defesa-pokemon">A defesa base do Pokémon</a></li>
+            <li><a href="#ataque_especial-pokemon">O ataque especial base do Pokémon</a></li>
+            <li><a href="#defesa_especial-pokemon">O ataque especial base do Pokémon</a></li>
+            <li><a href="#velocidade-pokemon">A velocidade base do Pokémon</a></li>
+            <li><a href="#geracao-pokemon">Número da geração em que o Pokémon foi introduzido</a></li>
+            <li><a href="#lendario-pokemon">O Pokémon é lendário</a></li>
+            <li><a href="#cor-pokemon">A cor do Pokémon</a></li>
+            <li><a href="#altura-pokemon">Altura em metros do Pokémon</a></li>
+            <li><a href="#peso_kg-pokemon">Peso em Kilos do Pokémon</a></li>
+            <li><a href="#taxa_captura-pokemon">A taxa de captura do Pokémon</a></li>
+        </ul>
+    </nav>
+    <main>
+
+        <section id="numero-pokemon">
+
+            <header>
+                <h2>1. Número do Pokémon</h2>
+            </header>
+            <label for="n_pokemon">Número do Pokémon na pokédex : </label>
+            <input type="number" name="n_pokemon" id="n_pokemon" step="1">
+
+        </section>
+
+        <section id="nome-pokemon">
+            <header>
+                <h2>2. Nome do Pokémon</h2>
+            </header>
+
+            <label for="nome">Nome do Pokémon:</label>
+            <input type="text" name="nome" value="">
+        </section>
+
+        <section id="tipos-pokémon">
+            <header>
+                <h2>3. Tipos do Pokémon</h2>
+            </header>
+            <ul>
+                <li>
+                    <input type="checkbox" name="fogo" id="fogo" value="fogo">
+                    <label for="fogo">Fogo</label>
+                </li>
+
+                <li>
+                    <input type="checkbox" name="agua" id="agua" value="agua">
+                    <label for="agua">Água</label>
+                </li>
+
+                <li>
+                    <input type="checkbox" name="planta" id="planta" value="planta">
+                    <label for="planta">Planta</label>
+                </li>
+
+                <li>
+                    <input type="checkbox" name="aco" id="aco" value="aco">
+                    <label for="aco">Aço</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="dragao" id="dragao" value="dragao">
+                    <label for="dragao">Dragão</label>
+                </li>
+
+                <li>
+                    <input type="checkbox" name="eletrico" id="eletrico" value="eletrico">
+                    <label for="eletrico">Elétrico</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="fada" id="fada" value="fada">
+                    <label for="fada">Fada</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="fantasma" id="fantasma" value="fantasma">
+                    <label for="fantasma">Fantasma</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="gelo" id="gelo" value="gelo">
+                    <label for="gelo">Gelo</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="inseto" id="inseto" value="inseto">
+                    <label for="inseto">Inseto</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="lutador" id="lutador" value="lutador">
+                    <label for="lutador">Lutador</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="normal" id="normal" value="normal">
+                    <label for="normal">Normal</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="pedra" id="pedra" value="pedra">
+                    <label for="pedra">Pedra</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="psiquico" id="psiquico" value="psiquico">
+                    <label for="psiquico">Psíquico</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="sombrio" id="sombrio" value="sombrio">
+                    <label for="sombrio">Sombrio</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="terra" id="terra" value="terra">
+                    <label for="terra">Terra</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="venenoso" id="venenoso" value="venenoso">
+                    <label for="venenoso">Venenoso</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="voador" id="voador" value="voador">
+                    <label for="voador">Voador</label>
+                </li>
+
+
+            </ul>
+
+        </section>
+
+        <section id="total-stats-pokemon">
+            <header>
+                <h2>4. Total de Stats do Pokémon</h2>
+            </header>
+            <label for="total_stats">Total de Stats do Pokémon:</label>
+            <input type="number" name="total_stats" id="total_stats">
+
+        </section>
+
+        <section id="hp-pokemon">
+            <header>
+                <h2>5. Total de Vida do Pokémon</h2>
+            </header>
+            <label for="vida">Total de vida do Pokémon:</label>
+            <input type="number" name="vida" id="vida">
+        </section>
+
+        <section id="ataque-pokemon">
+            <header>
+                <h2>6. O ataque base do Pokémon</h2>
+            </header>
+            <label for="ataque">Total de ataque do Pokémon:</label>
+            <input type="number" name="ataque" id="ataque">
+        </section>
+
+        <section id="defesa-pokemon">
+            <header>
+                <h2>7. A defesa base do Pokémon</h2>
+            </header>
+            <label for="defesa">Total de defesa do Pokémon:</label>
+            <input type="number" name="defesa" id="defesa">
+        </section>
+
+        <section id="ataque_especial-pokemon">
+            <header>
+                <h2>8. O ataque especial base do Pokémon</h2>
+            </header>
+            <label for="ataque_esp">Total de ataque especial do Pokémon:</label>
+            <input type="number" name="ataque_esp" id="ataque_esp">
+        </section>
+
+        <section id="defesa_especial-pokemon">
+            <header>
+                <h2>9. A defesa especial base do Pokémon</h2>
+            </header>
+            <label for="defesa_esp">Total de defesa especial do Pokémon:</label>
+            <input type="number" name="defesa_esp" id="defesa_esp">
+        </section>
+
+        <section id="velocidade-pokemon">
+            <header>
+                <h2>10. A velocidade base do Pokémon</h2>
+            </header>
+
+            <label for="velocidade">Velocidade do Pokémon:</label>
+            <input type="number" name="velocidade" id="velocidade">
+
+
+        </section>
+
+        <section id="geracao-pokemon">
+            <header>
+                <h2>11. Número da geração em que o Pokémon foi introduzido</h2>
+            </header>
+
+            <label for="geracao">Geração do Pokémon:</label>
+            <input type="number" name="geracao" id="geracao" step="1" min="1" max="7">
+
+
+        </section>
+
+
+        <section id="lendario-pokemon">
+            <header>
+                <h2>12. É um Pokémon lendário?</h2>
+            </header>
+            <input type="radio" name="lendario" id="lendario">
+            <label for="lendario">Sim</label>
+            <input type="radio" name="lendario" id="lendario">
+            <label for="lendario">Não</label>
+        </section>
+
+        <section id="cor-pokemon">
+            <header>
+                <h2>13. Qual a cor do Pokémon?</h2>
+            </header>
+            <input type="color" name="cor" id="cor">
+        </section>
+
+        <section id="altura-pokemon">
+            <header>
+                <h2>14. Qual a altura em metros do Pokémon?</h2>
+            </header>
+            <label for="altura">Altura do Pokémon:</label>
+            <input type="number" name="altura" id="altura">
+
+
+        </section>
+
+        <section id="peso_kg-pokemon">
+            <header>
+                <h2>15. Qual o peso em quilos do Pokémon?</h2>
+            </header>
+            <label for="peso">Peso do Pokémon:</label>
+            <input type="number" name="peso" id="peso">
+
+
+        </section>
+
+
+        <section id="taxa_captura-pokemon">
+            <header>
+                <h2>16. Qual a taxa de captura do Pokémon?</h2>
+            </header>
+            <label for="taxa">Taxa de captura do Pokémon:</label>
+            <input type="number" name="taxa" id="taxa">
+
+
+        </section>
+
+    </main>
+</body>
+
+</html>

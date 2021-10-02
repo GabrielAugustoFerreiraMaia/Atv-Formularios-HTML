@@ -1,0 +1,36 @@
+h1,
+h2,
+ul,
+li,
+a,
+label,
+input,
+section {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: crimson;
+    font-weight: bold;
+}
+
+h1,
+h2 {
+    color: blue
+}
+
+label {
+    font-weight: bold;
+}
+
+div {
+    background-size: contain;
+    background-image: url('https://thumbs.dreamstime.com/b/pokemon-silhouette-background-vector-cartoon-pokemon-silhouette-background-vector-cartoon-symbol-art-icon-play-go-sign-concept-142906798.jpg');
+}
